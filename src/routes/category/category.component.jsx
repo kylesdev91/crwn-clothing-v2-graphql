@@ -20,16 +20,6 @@ const GET_CATEGORY = gql`
         imageUrl
       }
     }
-    collections {
-      id
-      title
-      items {
-        id
-        name
-        price
-        imageUrl
-      }
-    }
   }
 `;
 
